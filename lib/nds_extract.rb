@@ -10,8 +10,8 @@ def directors_totals(nds)
 
   i = 0
 
-  number_of_directors = directors_database.length
-
+  #number_of_directors = directors_database.length
+  number_of_directors = nds.length
 
   result = {}
   gross_movie_income = 0
