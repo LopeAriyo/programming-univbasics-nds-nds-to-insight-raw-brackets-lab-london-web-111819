@@ -9,6 +9,7 @@ def directors_totals(nds)
   #pp directors_database
 
   i = 0
+
   number_of_directors = directors_database.length
 
 
@@ -17,6 +18,7 @@ def directors_totals(nds)
 
 
   until i == number_of_directors do
+
     j = 0
     number_of_movies = directors_database[i][:movies].length
 
